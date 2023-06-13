@@ -45,7 +45,9 @@ D:\Training materials\Fundamentals\CleanArchitectureDemo\CollegeApp.Presentation
 D:\Training materials\Fundamentals\CleanArchitectureDemo\CollegeApp.Presentation\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
 D:\Training materials\Fundamentals\CleanArchitectureDemo\CollegeApp.Presentation\bin\Debug\net6.0\Npgsql.dll
 D:\Training materials\Fundamentals\CleanArchitectureDemo\CollegeApp.Presentation\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
-D:\Training materials\Fundamentals\CleanArchitectureDemo\CollegeApp.Presentation\bin\Debug\net6.0\CollegeApp.Application.dll
 D:\Training materials\Fundamentals\CleanArchitectureDemo\CollegeApp.Presentation\bin\Debug\net6.0\CollegeApp.Infrastructure.dll
-D:\Training materials\Fundamentals\CleanArchitectureDemo\CollegeApp.Presentation\bin\Debug\net6.0\CollegeApp.Application.pdb
 D:\Training materials\Fundamentals\CleanArchitectureDemo\CollegeApp.Presentation\bin\Debug\net6.0\CollegeApp.Infrastructure.pdb
+D:\Training materials\Fundamentals\CleanArchitectureDemo\CollegeApp.Presentation\bin\Debug\net6.0\CollegeApp.Core.dll
+D:\Training materials\Fundamentals\CleanArchitectureDemo\CollegeApp.Presentation\bin\Debug\net6.0\CollegeApp.Domain.dll
+D:\Training materials\Fundamentals\CleanArchitectureDemo\CollegeApp.Presentation\bin\Debug\net6.0\CollegeApp.Core.pdb
+D:\Training materials\Fundamentals\CleanArchitectureDemo\CollegeApp.Presentation\bin\Debug\net6.0\CollegeApp.Domain.pdb

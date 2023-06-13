@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "1ZmGo7yTA75lmmD9/nke1pZlzaWVqfq13q961nOdkXljwCS/FjupYt60Z4WF7GJqTBZW07s0kxxJ+9h1wFgh3w==",
+  "dgSpecHash": "tpkYjRdqIpAbRcikL5qryK6ns3ZqX2EDDnpBnGH4p+cktC8HeTBY/JOR8SK1fUKEOhDLj9hhzkfL0sQdEqvEmA==",
   "success": true,
   "projectFilePath": "D:\\Training materials\\Fundamentals\\CleanArchitectureDemo\\CollegeApp.Infrastructure\\CollegeApp.Infrastructure.csproj",
   "expectedPackageFiles": [

@@ -15,7 +15,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CollegeApp.Application\CollegeApp.Application.csproj" />
+    <ProjectReference Include="..\CollegeApp.Core\CollegeApp.Core.csproj" />
+    <ProjectReference Include="..\CollegeApp.Domain\CollegeApp.Domain.csproj" />
+    <ProjectReference Include="..\CollegeApp.Infrastructure\CollegeApp.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,15 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "LoQNt5uPnBoawKhZVq0gsxRZkelaa7RbjJk6e2dKpvxVTh9QjDW9m9B3leHmDm4v6LFJdCxRANnMGoQLhzuPFw==",
+  "dgSpecHash": "3P3c+fUJdt8xmJ5CZKjLtmNvw2i0grMwgzEmnNntbhPRyApK7Yjhdk3b+frlcO4yS+hw3J3fda3LETdNlk6bpw==",
   "success": true,
-  "projectFilePath": "D:\\Training materials\\Fundamentals\\CleanArchitectureDemo\\CollegeApp.Presentation\\CollegeApp.Presentation.csproj",
+  "projectFilePath": "D:\\Training materials\\Fundamentals\\CleanArchitectureDemo\\CollegeApp.Core\\CollegeApp.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\madur\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
     "C:\\Users\\madur\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.0-preview.4.23259.3\\microsoft.entityframeworkcore.8.0.0-preview.4.23259.3.nupkg.sha512",
     "C:\\Users\\madur\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.0-preview.4.23259.3\\microsoft.entityframeworkcore.abstractions.8.0.0-preview.4.23259.3.nupkg.sha512",
     "C:\\Users\\madur\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\8.0.0-preview.4.23259.3\\microsoft.entityframeworkcore.analyzers.8.0.0-preview.4.23259.3.nupkg.sha512",
     "C:\\Users\\madur\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\8.0.0-preview.4.23259.3\\microsoft.entityframeworkcore.relational.8.0.0-preview.4.23259.3.nupkg.sha512",
-    "C:\\Users\\madur\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\madur\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\8.0.0-preview.4.23259.5\\microsoft.extensions.caching.abstractions.8.0.0-preview.4.23259.5.nupkg.sha512",
     "C:\\Users\\madur\\.nuget\\packages\\microsoft.extensions.caching.memory\\8.0.0-preview.4.23259.5\\microsoft.extensions.caching.memory.8.0.0-preview.4.23259.5.nupkg.sha512",
     "C:\\Users\\madur\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0-preview.4.23259.5\\microsoft.extensions.configuration.abstractions.8.0.0-preview.4.23259.5.nupkg.sha512",
@@ -19,13 +18,8 @@
     "C:\\Users\\madur\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0-preview.4.23259.5\\microsoft.extensions.logging.abstractions.8.0.0-preview.4.23259.5.nupkg.sha512",
     "C:\\Users\\madur\\.nuget\\packages\\microsoft.extensions.options\\8.0.0-preview.4.23259.5\\microsoft.extensions.options.8.0.0-preview.4.23259.5.nupkg.sha512",
     "C:\\Users\\madur\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0-preview.4.23259.5\\microsoft.extensions.primitives.8.0.0-preview.4.23259.5.nupkg.sha512",
-    "C:\\Users\\madur\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\madur\\.nuget\\packages\\npgsql\\8.0.0-preview.4\\npgsql.8.0.0-preview.4.nupkg.sha512",
     "C:\\Users\\madur\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\8.0.0-preview.4\\npgsql.entityframeworkcore.postgresql.8.0.0-preview.4.nupkg.sha512",
-    "C:\\Users\\madur\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
-    "C:\\Users\\madur\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
-    "C:\\Users\\madur\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
-    "C:\\Users\\madur\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
     "C:\\Users\\madur\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
   "logs": []

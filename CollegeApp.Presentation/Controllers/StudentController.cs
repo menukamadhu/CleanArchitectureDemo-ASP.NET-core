@@ -1,5 +1,5 @@
-using CollegeApp.Application.Entities;
-using CollegeApp.Application.Interfaces;
+using CollegeApp.Core.Entity;
+using CollegeApp.Core.Interface;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CleanArchitectureDemo.Controllers;

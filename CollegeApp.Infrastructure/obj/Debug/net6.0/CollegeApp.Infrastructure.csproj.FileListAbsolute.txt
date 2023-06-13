@@ -10,3 +10,6 @@ D:\Training materials\Fundamentals\CleanArchitectureDemo\CollegeApp.Infrastructu
 D:\Training materials\Fundamentals\CleanArchitectureDemo\CollegeApp.Infrastructure\obj\Debug\net6.0\refint\CollegeApp.Infrastructure.dll
 D:\Training materials\Fundamentals\CleanArchitectureDemo\CollegeApp.Infrastructure\obj\Debug\net6.0\CollegeApp.Infrastructure.pdb
 D:\Training materials\Fundamentals\CleanArchitectureDemo\CollegeApp.Infrastructure\obj\Debug\net6.0\ref\CollegeApp.Infrastructure.dll
+D:\Training materials\Fundamentals\CleanArchitectureDemo\CollegeApp.Infrastructure\bin\Debug\net6.0\CollegeApp.Core.dll
+D:\Training materials\Fundamentals\CleanArchitectureDemo\CollegeApp.Infrastructure\bin\Debug\net6.0\CollegeApp.Core.pdb
+D:\Training materials\Fundamentals\CleanArchitectureDemo\CollegeApp.Infrastructure\obj\Debug\net6.0\CollegeApp.Infrastructure.csproj.CopyComplete

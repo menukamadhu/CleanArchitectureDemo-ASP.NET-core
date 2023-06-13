@@ -301,6 +301,21 @@
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
         }
+      },
+      "CollegeApp.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Dapper": "2.0.123",
+          "Npgsql": "8.0.0-preview.4",
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.0-preview.4"
+        },
+        "compile": {
+          "bin/placeholder/CollegeApp.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CollegeApp.Core.dll": {}
+        }
       }
     }
   },
@@ -759,10 +774,16 @@
         "system.runtime.compilerservices.unsafe.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "CollegeApp.Core/1.0.0": {
+      "type": "project",
+      "path": "../CollegeApp.Core/CollegeApp.Core.csproj",
+      "msbuildProject": "../CollegeApp.Core/CollegeApp.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "CollegeApp.Core >= 1.0.0",
       "Dapper >= 2.0.123",
       "Npgsql >= 8.0.0-preview.4",
       "Npgsql.EntityFrameworkCore.PostgreSQL >= 8.0.0-preview.4"
@@ -800,7 +821,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Training materials\\Fundamentals\\CleanArchitectureDemo\\CollegeApp.Core\\CollegeApp.Core.csproj": {
+              "projectPath": "D:\\Training materials\\Fundamentals\\CleanArchitectureDemo\\CollegeApp.Core\\CollegeApp.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
