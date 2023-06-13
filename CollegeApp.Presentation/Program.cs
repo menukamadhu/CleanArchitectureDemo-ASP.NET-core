@@ -1,7 +1,6 @@
 using CollegeApp.Core.Interface;
 using CollegeApp.Domain.Service;
 using CollegeApp.Infrastructure.DBService;
-using CollegeApp.Infrastructure.Repository;
 using Dapper;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -14,7 +13,6 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<IStudentService, StudentService>();
 builder.Services.AddScoped<IDbService, DbService>();
-builder.Services.AddScoped<IStudentRepository, StudentRepository>();
 
 DefaultTypeMap.MatchNamesWithUnderscores = true;
 
