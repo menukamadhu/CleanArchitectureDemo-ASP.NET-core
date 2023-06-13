@@ -5,40 +5,46 @@ namespace CollegeApp.Domain.Service;
 
 public class StudentService : IStudentService
 {
-    private readonly IStudentRepository _studentRepository;
+    private readonly IDbService _dbService;
 
-    public StudentService(IStudentRepository studentRepository)
+    public StudentService(IDbService dbService)
     {
-        _studentRepository = studentRepository;
+        _dbService = dbService;
     }
 
-    public Task<List<Student>> GetAll()
+    public async Task<List<Student>> GetAll()
     {
-        var students =  _studentRepository.GetAll();
+        var students = await _dbService.GetAll<Student>("SELECT * FROM public.student", new { });
         return students;
     }
 
-    public Task<Student> GetById(int id)
+    public async Task<Student> GetById(int id)
     {
-        var student = _studentRepository.GetById(id);
+        var student = await _dbService.GetAsync<Student>("SELECT * FROM public.student WHERE id=@id", new { id });
         return student;
     }
 
-    public Task<bool> AddStudent(Student student)
+    public async Task<bool> AddStudent(Student student)
     {
-        var result = _studentRepository.AddStudent(student);
-        return result;
+        var result = await _dbService.EditData(
+            "INSERT INTO public.student (id,name,email,address) VALUES (@Id, @Name, @Email, @Address)",
+            student
+        );
+        return true;
     }
 
-    public Task<Student> EditStudent(Student student)
+    public async Task<Student> EditStudent(Student student)
     {
-        var result = _studentRepository.EditStudent(student);
-        return result;
+        var updateStudent = await _dbService.EditData(
+            "UPDATE public.student SET name=@Name, email=@Email, address=@Address WHERE id=@Id",
+            student
+        );
+        return student;
     }
 
-    public Task<bool> Delete(int id)
+    public async Task<bool> Delete(int id)
     {
-        var result= _studentRepository.Delete(id);
-        return result;
+        var deleteStudent = await _dbService.EditData("DELETE FROM public.student WHERE id=@id",new {id});
+        return true;
     }
 }

@@ -1,4 +1,5 @@
 using System.Data;
+using CollegeApp.Core.Interface;
 using Dapper;
 using Microsoft.Extensions.Configuration;
 using Npgsql;

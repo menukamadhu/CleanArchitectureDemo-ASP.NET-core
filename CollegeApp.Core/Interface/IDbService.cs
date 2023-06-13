@@ -1,4 +1,4 @@
-namespace CollegeApp.Infrastructure.DBService;
+namespace CollegeApp.Core.Interface;
 
 public interface IDbService
 {

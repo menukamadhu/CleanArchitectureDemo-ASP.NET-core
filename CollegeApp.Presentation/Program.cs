@@ -13,7 +13,6 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<IStudentService, StudentService>();
 builder.Services.AddScoped<IDbService, DbService>();
-builder.Services.AddScoped<IStudentRepository, IStudentRepository>();
 
 DefaultTypeMap.MatchNamesWithUnderscores = true;
 
